@@ -55,3 +55,5 @@ There are different types of JavaScript operators:
 | \|\| | logical or |
 | ! | logical not |
 
+## NaN in JS 🤔
+It is a global property and a value representing Not a number 
