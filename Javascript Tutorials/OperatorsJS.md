@@ -58,6 +58,6 @@ There are different types of JavaScript operators:
 ## NaN in JS 🤔
 It is a global property and a value representing Not a number 
 
-- /0 -> NaN
+- 0/0 -> NaN
 - NaN += 1 -> NaN
 - NaN * NaN -> NaN
