@@ -61,3 +61,12 @@ It is a global property and a value representing Not a number
 - 0/0 -> NaN
 - NaN += 1 -> NaN
 - NaN * NaN -> NaN
+
+## Operators Presedence 
+This is the general order for solving an expression 
+
+``` css 
+() > ** > *, /, %, >, +, -
+```
+
+
