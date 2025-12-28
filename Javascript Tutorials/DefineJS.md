@@ -35,7 +35,7 @@ We use console.log method from the console object
 # Hello Duniya! program in JS 
 
 ```js
-console.log("Hello! duniya");
+console.log("Hello! duniya"); // Our main reason to use console.log() is that whenever we want that whatever we write on our code editor should gets print on the brwoser's console, so this method helps to link the browser to our code editor 
 ```
 
 
