@@ -1,0 +1,62 @@
+# Conditional statements
+- Conditional Statements allow us to perform different actions for different conditions.
+- Conditional statements run different code depending on true or false conditions.
+
+- Conditional statements include:
+
+- if
+- if...else
+- if...else if...else
+- switch
+- ternary (? :)
+
+```js 
+// Use if to specify a code block to be executed, if a specified condition is true.
+
+if (condition) {
+  // code 
+}
+
+// Use else to specify a code block to be executed, if the same condition is false.
+
+if (condition) {
+  // code to execute if the condition is true
+} else {
+  // code to execute if the condition is false
+}
+
+// Use else if to specify a new condition to test, if the first condition is false.
+
+if (condition1) {
+  // code to execute if condition1 is true
+} else if (condition2) {
+  // code to execute if the condition1 is false and condition2 is true
+} else {
+  // code to execute if the condition1 is false and condition2 is false
+}
+```
+
+## Switch Statement
+Use switch to specify many alternative code blocks to be executed.
+
+```js
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+```
+
+## Ternary Operator 
+Use (? :) (ternary) as a shorthand for if...else.
+
+```js 
+condition ? expression1 : expression2
+```
+
+
